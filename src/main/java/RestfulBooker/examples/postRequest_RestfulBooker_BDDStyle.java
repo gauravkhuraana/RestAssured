@@ -28,7 +28,7 @@ public class postRequest_RestfulBooker_BDDStyle {
                 .statusLine("HTTP/1.1 200 OK")
                 .body("token", Matchers.notNullValue())
                 .body("token.length()",Matchers.is(15))
-                .body("token",Matchers.matchesRegex("^a-z0-9]+$"));
+                .body("token",Matchers.matchesRegex("[a-z0-9]+"));
 
 
 
