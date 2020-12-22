@@ -1,4 +1,4 @@
-package RestfulBooker.examples;
+package jacksonAPI;
 
 
 import com.fasterxml.jackson.databind.ObjectMapper;
