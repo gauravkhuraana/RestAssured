@@ -28,16 +28,9 @@ public class postRequest_queryRequestSpecificationParameter_BDDStyle {
                 .contentType(ContentType.JSON)
                 .header("header1","username")
                 .header("secondHeader","password")
-        .when()
-                .post()
+                .log()
+                .all();
 
-
-        .then()
-                .statusCode(200)
-                .statusLine("HTTP/1.1 200 OK")
-                .body("token", Matchers.notNullValue())
-                .body("token.length()",Matchers.is(15))
-                .body("token",Matchers.matchesRegex("[a-z0-9]+"));
 
         QueryableRequestSpecification query = SpecificationQuerier.query(req);
 
