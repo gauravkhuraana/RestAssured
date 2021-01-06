@@ -21,9 +21,9 @@ public class udzial_employees_Deserialisation {
 
         System.out.println("First Name is " + emp.getFirstName());
         System.out.println("Last Name is " + emp.getLastName());
-        System.out.println("Age is " + emp.getAge());
+       // System.out.println("Age is " + emp.getAge());
         System.out.println("Gender is " + emp.getGender());
-        System.out.println("Salary is " + emp.getSalary());
+      //  System.out.println("Salary is " + emp.getSalary());
         System.out.println("First Name is " + emp.isMarried());
 
     }

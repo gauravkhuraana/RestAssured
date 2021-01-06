@@ -30,7 +30,6 @@ public class udzial_employees_Serlialization {
     public void setLastName(String lastName) {
         this.lastName = lastName;
     }
-
     public char getGender() {
         return gender;
     }
@@ -39,7 +38,7 @@ public class udzial_employees_Serlialization {
         this.gender = gender;
     }
 
-    public int getAge() {
+   public int getAge() {
         return age;
     }
 
@@ -47,9 +46,11 @@ public class udzial_employees_Serlialization {
         this.age = age;
     }
 
+
     public double getSalary() {
         return salary;
     }
+
 
     public void setSalary(int salary) {
         this.salary = salary;
@@ -87,6 +88,7 @@ public class udzial_employees_Serlialization {
         String userDir = System.getProperty("user.dir");
         File outputJson = new File(userDir+"\\src\\main\\resources\\Employee.json");
         obj.writerWithDefaultPrettyPrinter().writeValue(outputJson,emp_pojo);
+
 
 
 
