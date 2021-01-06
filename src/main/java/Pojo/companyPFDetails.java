@@ -28,7 +28,7 @@ public class companyPFDetails {
     }
 
     public Integer setPfYear(Integer pfYear) {
-        this.pfYear = pfYear;
+        return pfYear;
     }
 
     public Integer getNoOfEmployees() {
@@ -37,5 +37,6 @@ public class companyPFDetails {
 
     public Integer setNoOfEmployees(Integer noOfEmployees) {
         this.noOfEmployees = noOfEmployees;
+        return noOfEmployees;
     }
 }
