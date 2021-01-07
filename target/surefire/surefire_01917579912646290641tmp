@@ -1,0 +1,7 @@
+#surefire_0
+#Thu Jan 07 15:43:20 IST 2021
+user.dir=S\:\\Automation\\RestAssured
+testng.dtd.http=true
+localRepository=C\:\\Users\\gakhuran\\.m2\\repository
+suiteXmlFiles=s\:\\Automation\\restAssured\\testng.xml
+basedir=S\:\\Automation\\RestAssured
