@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="S:/Automation/RestAssured">
+        <classes>
+            <class name="Pojo.convertClassObj_to_Json_Seralization_Deserialisation">
+                <methods>
+                    <include name="convertobjToJson"/>
+                    <include name="readFromJsonObject"/>
+                </methods>
+            </class>
+            <class name="Pojo.jsonArray_via_Pojo">
+                <methods>
+                    <include name="jsonArray_viaPojo"/>
+                    <include name="printAJsonArray_viaPojo"/>
+                </methods>
+            </class>
+            <class name="examples.BDDStyleCode">
+                <methods>
+                    <include name="getBookingID_VerifyStatusCode"/>
+                </methods>
+            </class>
+            <class name="examples.WriteRestAPI_Response_to_external_Files">
+                <methods>
+                    <include name="testcase1_writeUsingStringMehod"/>
+                    <include name="tc2_writeUsingAsInputStream"/>
+                    <include name="bestWayToPrintOutputResponseToFile"/>
+                </methods>
+            </class>
+            <class name="examples.beforeClassCommonCode_with_given_same">
+                <methods>
+                    <include name="TC1"/>
+                    <include name="TC2"/>
+                    <include name="TC3"/>
+                    <include name="TC4"/>
+                    <include name="TC5"/>
+                </methods>
+            </class>
+            <class name="examples.defaultHostPort_Logging">
+                <methods>
+                    <include name="defaultTest"/>
+                    <include name="usingRequestSpecificationBuilder"/>
+                    <include name="staticPortProperty"/>
+                </methods>
+            </class>
+            <class name="examples.deleteRequest_RestfulBooker_BDDStyle">
+                <methods>
+                    <include name="testDeleteRequest"/>
+                </methods>
+            </class>
+            <class name="examples.nonBDDStyleRestAssured">
+                <methods>
+                    <include name="GetBookingId_VerifyStatusCode"/>
+                </methods>
+            </class>
+            <class name="examples.patchRequest_RestfulBooker_BDDStyle">
+                <methods>
+                    <include name="testPostRequest"/>
+                </methods>
+            </class>
+            <class name="examples.postRequest_RestfulBooker_BDDStyle">
+                <methods>
+                    <include name="testPostRequest"/>
+                </methods>
+            </class>
+            <class name="examples.postRequest_external_JsonFile_body">
+                <methods>
+                    <include name="testPostRequest"/>
+                </methods>
+            </class>
+            <class name="examples.postRequest_external_XMLFile_body">
+                <methods>
+                    <include name="testPostRequest"/>
+                </methods>
+            </class>
+            <class name="examples.postRequest_jsonArray_viaSet">
+                <methods>
+                    <include name="javaSet_JsonObjects"/>
+                </methods>
+            </class>
+            <class name="examples.postRequest_queryRequestSpecificationParameter_BDDStyle">
+                <methods>
+                    <include name="testPostRequest"/>
+                </methods>
+            </class>
+            <class name="examples.postRequest_using_JavaMap">
+                <methods>
+                    <include name="javaMapInJson"/>
+                    <include name="javaMap_JsonObjects"/>
+                </methods>
+            </class>
+            <class name="examples.putRequest_RestfulBooker_BDDStyle">
+                <methods>
+                    <include name="testPostRequest"/>
+                </methods>
+            </class>
+            <class name="examples.reqSpecBuilder">
+                <methods>
+                    <include name="requestSpecBuilder"/>
+                </methods>
+            </class>
+            <class name="examples.requestSpecificationStaticProperty">
+                <methods>
+                    <include name="whenYoujustHaveOneAPIToRun"/>
+                    <include name="overrideDefaultSpecification"/>
+                </methods>
+            </class>
+            <class name="examples.staticRestFul">
+                <methods>
+                    <include name="BDDStyleWithStaticImport"/>
+                </methods>
+            </class>
+            <class name="examples.variousWaysOfRunningRestRequest">
+                <methods>
+                    <include name="waysOfRestRequest"/>
+                </methods>
+            </class>
+            <class name="jacksonAPI.postRequest_jsonObject_jacksonAPI_objectMapper">
+                <methods>
+                    <include name="javaSet_JsonObjects"/>
+                </methods>
+            </class>
+            <class name="jacksonAPI.postRequest_serialiaztion_On_content_Type_Basis">
+                <methods>
+                    <include name="passingAsJsonBody"/>
+                    <include name="passingAsXMLBody"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
