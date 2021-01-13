@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [All Test Suite]">
+  <test thread-count="5" verbose="0" name="S:/Automation/RestAssured(failed)">
+    <classes>
+      <class name="examples.requestSpecificationStaticProperty">
+        <methods>
+          <include name="whenYoujustHaveOneAPIToRun"/>
+          <include name="overrideDefaultSpecification"/>
+          <include name="reqDefaultStatic"/>
+        </methods>
+      </class> <!-- examples.requestSpecificationStaticProperty -->
+      <class name="examples.nonBDDStyleRestAssured">
+        <methods>
+          <include name="GetBookingId_VerifyStatusCode"/>
+        </methods>
+      </class> <!-- examples.nonBDDStyleRestAssured -->
+      <class name="examples.patchRequest_RestfulBooker_BDDStyle">
+        <methods>
+          <include name="testPostRequest"/>
+        </methods>
+      </class> <!-- examples.patchRequest_RestfulBooker_BDDStyle -->
+      <class name="examples.staticRestFul">
+        <methods>
+          <include name="BDDStyleWithStaticImport"/>
+        </methods>
+      </class> <!-- examples.staticRestFul -->
+      <class name="examples.postRequest_external_JsonFile_body">
+        <methods>
+          <include name="testPostRequest"/>
+        </methods>
+      </class> <!-- examples.postRequest_external_JsonFile_body -->
+      <class name="examples.defaultHostPort_Logging">
+        <methods>
+          <include name="usingRequestSpecificationBuilder"/>
+          <include name="defaultTest"/>
+          <include name="staticPortProperty"/>
+        </methods>
+      </class> <!-- examples.defaultHostPort_Logging -->
+      <class name="examples.postRequest_using_JavaMap">
+        <methods>
+          <include name="javaMapInJson"/>
+          <include name="javaMap_JsonObjects"/>
+        </methods>
+      </class> <!-- examples.postRequest_using_JavaMap -->
+      <class name="examples.BDDStyleCode">
+        <methods>
+          <include name="getBookingID_VerifyStatusCode"/>
+        </methods>
+      </class> <!-- examples.BDDStyleCode -->
+      <class name="examples.postRequest_external_XMLFile_body">
+        <methods>
+          <include name="testPostRequest"/>
+        </methods>
+      </class> <!-- examples.postRequest_external_XMLFile_body -->
+      <class name="examples.postRequest_jsonArray_viaSet">
+        <methods>
+          <include name="javaSet_JsonObjects"/>
+        </methods>
+      </class> <!-- examples.postRequest_jsonArray_viaSet -->
+      <class name="examples.putRequest_RestfulBooker_BDDStyle">
+        <methods>
+          <include name="testPostRequest"/>
+        </methods>
+      </class> <!-- examples.putRequest_RestfulBooker_BDDStyle -->
+      <class name="examples.reqSpecBuilder">
+        <methods>
+          <include name="requestSpecBuilder"/>
+        </methods>
+      </class> <!-- examples.reqSpecBuilder -->
+      <class name="examples.postRequest_RestfulBooker_BDDStyle">
+        <methods>
+          <include name="testPostRequest"/>
+        </methods>
+      </class> <!-- examples.postRequest_RestfulBooker_BDDStyle -->
+      <class name="jacksonAPI.postRequest_serialiaztion_On_content_Type_Basis">
+        <methods>
+          <include name="passingAsJsonBody"/>
+          <include name="javaSet_JsonObjects"/>
+          <include name="passingAsXMLBody"/>
+        </methods>
+      </class> <!-- jacksonAPI.postRequest_serialiaztion_On_content_Type_Basis -->
+      <class name="examples.deleteRequest_RestfulBooker_BDDStyle">
+        <methods>
+          <include name="testDeleteRequest"/>
+        </methods>
+      </class> <!-- examples.deleteRequest_RestfulBooker_BDDStyle -->
+      <class name="examples.variousWaysOfRunningRestRequest">
+        <methods>
+          <include name="waysOfRestRequest"/>
+        </methods>
+      </class> <!-- examples.variousWaysOfRunningRestRequest -->
+    </classes>
+  </test> <!-- S:/Automation/RestAssured(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
