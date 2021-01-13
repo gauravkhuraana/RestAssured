@@ -1,0 +1,95 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 35, Failures: 21, Errors: 0, Skipped: 0, Time elapsed: 2,857.602 sec <<< FAILURE! - in TestSuite
+getBookingID_VerifyStatusCode(examples.BDDStyleCode)  Time elapsed: 3.152 sec  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+JSON path bookingid[3] doesn't match.
+Expected: <1>
+  Actual: 2
+
+	at examples.BDDStyleCode.getBookingID_VerifyStatusCode(BDDStyleCode.java:20)
+
+defaultTest(examples.defaultHostPort_Logging)  Time elapsed: 168.406 sec  <<< FAILURE!
+java.net.ConnectException: Connection timed out: connect
+	at examples.defaultHostPort_Logging.defaultTest(defaultHostPort_Logging.java:22)
+
+usingRequestSpecificationBuilder(examples.defaultHostPort_Logging)  Time elapsed: 168.479 sec  <<< FAILURE!
+java.net.ConnectException: Connection timed out: connect
+	at examples.defaultHostPort_Logging.usingRequestSpecificationBuilder(defaultHostPort_Logging.java:40)
+
+staticPortProperty(examples.defaultHostPort_Logging)  Time elapsed: 4.107 sec  <<< FAILURE!
+java.net.ConnectException: Connection refused: connect
+	at examples.defaultHostPort_Logging.staticPortProperty(defaultHostPort_Logging.java:47)
+
+testDeleteRequest(examples.deleteRequest_RestfulBooker_BDDStyle)  Time elapsed: 168.526 sec  <<< FAILURE!
+java.net.ConnectException: Connection timed out: connect
+	at examples.deleteRequest_RestfulBooker_BDDStyle.testDeleteRequest(deleteRequest_RestfulBooker_BDDStyle.java:17)
+
+GetBookingId_VerifyStatusCode(examples.nonBDDStyleRestAssured)  Time elapsed: 84.329 sec  <<< FAILURE!
+java.net.ConnectException: Connection timed out: connect
+	at examples.nonBDDStyleRestAssured.GetBookingId_VerifyStatusCode(nonBDDStyleRestAssured.java:19)
+
+testPostRequest(examples.patchRequest_RestfulBooker_BDDStyle)  Time elapsed: 168.479 sec  <<< FAILURE!
+java.net.ConnectException: Connection timed out: connect
+	at examples.patchRequest_RestfulBooker_BDDStyle.testPostRequest(patchRequest_RestfulBooker_BDDStyle.java:23)
+
+testPostRequest(examples.postRequest_RestfulBooker_BDDStyle)  Time elapsed: 168.43 sec  <<< FAILURE!
+java.net.ConnectException: Connection timed out: connect
+	at examples.postRequest_RestfulBooker_BDDStyle.testPostRequest(postRequest_RestfulBooker_BDDStyle.java:23)
+
+testPostRequest(examples.postRequest_external_JsonFile_body)  Time elapsed: 168.729 sec  <<< FAILURE!
+java.net.ConnectException: Connection timed out: connect
+	at examples.postRequest_external_JsonFile_body.testPostRequest(postRequest_external_JsonFile_body.java:27)
+
+testPostRequest(examples.postRequest_external_XMLFile_body)  Time elapsed: 168.776 sec  <<< FAILURE!
+java.net.ConnectException: Connection timed out: connect
+	at examples.postRequest_external_XMLFile_body.testPostRequest(postRequest_external_XMLFile_body.java:26)
+
+javaSet_JsonObjects(examples.postRequest_jsonArray_viaSet)  Time elapsed: 168.754 sec  <<< FAILURE!
+java.net.ConnectException: Connection timed out: connect
+	at examples.postRequest_jsonArray_viaSet.javaSet_JsonObjects(postRequest_jsonArray_viaSet.java:56)
+
+javaMapInJson(examples.postRequest_using_JavaMap)  Time elapsed: 168.47 sec  <<< FAILURE!
+java.net.ConnectException: Connection timed out: connect
+	at examples.postRequest_using_JavaMap.javaMapInJson(postRequest_using_JavaMap.java:29)
+
+javaMap_JsonObjects(examples.postRequest_using_JavaMap)  Time elapsed: 168.41 sec  <<< FAILURE!
+java.net.ConnectException: Connection timed out: connect
+	at examples.postRequest_using_JavaMap.javaMap_JsonObjects(postRequest_using_JavaMap.java:61)
+
+testPostRequest(examples.putRequest_RestfulBooker_BDDStyle)  Time elapsed: 168.481 sec  <<< FAILURE!
+java.net.ConnectException: Connection timed out: connect
+	at examples.putRequest_RestfulBooker_BDDStyle.testPostRequest(putRequest_RestfulBooker_BDDStyle.java:24)
+
+requestSpecBuilder(examples.reqSpecBuilder)  Time elapsed: 0.02 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot get property 'assertionClosure' on null object
+	at examples.reqSpecBuilder.requestSpecBuilder(reqSpecBuilder.java:20)
+
+whenYoujustHaveOneAPIToRun(examples.requestSpecificationStaticProperty)  Time elapsed: 168.402 sec  <<< FAILURE!
+java.net.ConnectException: Connection timed out: connect
+	at examples.requestSpecificationStaticProperty.whenYoujustHaveOneAPIToRun(requestSpecificationStaticProperty.java:23)
+
+overrideDefaultSpecification(examples.requestSpecificationStaticProperty)  Time elapsed: 168.446 sec  <<< FAILURE!
+java.net.ConnectException: Connection timed out: connect
+	at examples.requestSpecificationStaticProperty.overrideDefaultSpecification(requestSpecificationStaticProperty.java:36)
+
+BDDStyleWithStaticImport(examples.staticRestFul)  Time elapsed: 169.265 sec  <<< FAILURE!
+java.net.ConnectException: Connection timed out: connect
+	at examples.staticRestFul.BDDStyleWithStaticImport(staticRestFul.java:20)
+
+waysOfRestRequest(examples.variousWaysOfRunningRestRequest)  Time elapsed: 168.522 sec  <<< FAILURE!
+java.net.ConnectException: Connection timed out: connect
+	at examples.variousWaysOfRunningRestRequest.waysOfRestRequest(variousWaysOfRunningRestRequest.java:18)
+
+passingAsJsonBody(jacksonAPI.postRequest_serialiaztion_On_content_Type_Basis)  Time elapsed: 167.471 sec  <<< FAILURE!
+java.net.ConnectException: Connection timed out: connect
+	at jacksonAPI.postRequest_serialiaztion_On_content_Type_Basis.passingAsJsonBody(postRequest_serialiaztion_On_content_Type_Basis.java:52)
+
+passingAsXMLBody(jacksonAPI.postRequest_serialiaztion_On_content_Type_Basis)  Time elapsed: 0.32 sec  <<< FAILURE!
+javax.xml.bind.MarshalException
+	at jacksonAPI.postRequest_serialiaztion_On_content_Type_Basis.passingAsXMLBody(postRequest_serialiaztion_On_content_Type_Basis.java:69)
+Caused by: com.sun.istack.SAXException2: unable to marshal type "com.fasterxml.jackson.databind.node.ObjectNode" as an element because it is missing an @XmlRootElement annotation
+	at jacksonAPI.postRequest_serialiaztion_On_content_Type_Basis.passingAsXMLBody(postRequest_serialiaztion_On_content_Type_Basis.java:69)
+
