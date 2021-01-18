@@ -1,16 +1,9 @@
-package examples.headers;
+package headers;
 
 import io.restassured.RestAssured;
-import io.restassured.config.HeaderConfig;
-import io.restassured.config.RestAssuredConfig;
 import io.restassured.http.ContentType;
-import io.restassured.http.Header;
-import io.restassured.http.Headers;
 import io.restassured.response.Response;
 import org.testng.annotations.Test;
-
-import java.util.HashMap;
-import java.util.Map;
 
 public class getHeaders {
 

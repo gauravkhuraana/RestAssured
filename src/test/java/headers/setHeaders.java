@@ -1,4 +1,4 @@
-package examples.headers;
+package headers;
 
 import io.restassured.RestAssured;
 import io.restassured.config.HeaderConfig;
