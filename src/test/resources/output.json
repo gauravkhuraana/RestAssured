@@ -1,0 +1,13 @@
+{
+  "code": 200,
+  "meta": null,
+  "data": {
+    "id": 178,
+    "name": "Puneet Rana",
+    "email": "rana_puneet@trantow.org",
+    "gender": "Male",
+    "status": "Inactive",
+    "created_at": "2021-02-03T03:50:07.588+05:30",
+    "updated_at": "2021-02-03T03:50:07.588+05:30"
+  }
+}
